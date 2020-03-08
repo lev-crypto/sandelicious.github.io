@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$.ajax({
 		type: "GET",
-		url: "http://localhost:3000/products",
+		url: "http://ec2-13-233-128-170.ap-south-1.compute.amazonaws.com:3000/products",
 		success: function(products) {
 			let divContent = document.getElementsByClassName("content");
 			let divRow1 = document.getElementsByClassName("row1");
