@@ -1,0 +1,92 @@
+.navbar {
+  overflow: hidden;
+  background-color: #00B988;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 50px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  right: 10%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  font-size: 130%;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.body{
+  background: #00B988 !important;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color: #C0C0C0;
+}
+
+.intro{
+  font-family: sans-serif;
+  position: absolute;
+  left: 22%;
+  width: 25%;
+  top: 100px !important;
+}
+
+/* Main content */
+.content{
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  top: 20%;
+  left: 0;
+  color: #00B988;
+}
+
+.column {
+  font-family: sans-serif;
+  font-size: 13px;
+  float: left;
+  width: 15.8%;
+  height: 45%;
+  margin: 1%;
+  margin-bottom: 0px;
+  padding: 1%;
+  border-radius: 25px;
+  border-bottom: 1.5px solid #00B988;
+  border-left: 1.5px solid #00B988;
+}
+
+.row1:after {
+  display: table;
+  clear: both;
+}
+
+.row2:after {
+  display: table;
+  clear: both;
+}
+
+
+.row1{
+  height: 50%;
+}
+
+.row2{
+  height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.checked {
+  color: orange;
+}
